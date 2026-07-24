@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Get in touch with aURRA Studio in Porto to start a sound project, request press materials, or explore career opportunities.">
+  <title>Contacts – aURRA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/x-icon" href="../imagens/logo.svg">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-3">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../imagens/logo.svg" alt="aURRA logo">
+          <span>aURRA</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contacts.html">CONTACTS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container-fluid px-3 px-md-4 px-lg-5">
+
+    <div class="page-title">
+      <h1>Let's make something together.</h1>
+    </div>
+
+    <div class="row g-4 pb-5">
+      <div class="col-12 col-md-4">
+        <div class="contact-cta-card">
+          <img src="../imagens/new-project.svg" alt="New Project Icon">
+          <h3>New Project</h3>
+          <p>Have a brand, space or product waiting for its sound? Tell us about it and we'll get back to you within 48
+            hours.</p>
+          <a class="btn-aurra" href="#contact-form">START A PROJECT</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="contact-cta-card">
+          <img src="../imagens/press.svg" alt="Press & Media Icon">
+          <h3>Press &amp; Media</h3>
+          <p>Looking for press materials, interviews or media inquiries about aURRA Studio.</p>
+          <a class="btn-aurra" href="mailto:press@aurra.pt">PRESS KIT</a>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="contact-cta-card">
+          <img src="../imagens/careers.svg" alt="Careers Icon">
+          <h3>Careers</h3>
+          <p>Curious minds who care about sound and brand are always welcome to reach out.</p>
+          <a class="btn-aurra" href="mailto:careers@aurra.pt">SEE OPENINGS</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 g-lg-5 pb-5 contacts-page-row">
+
+      <div class="col-12 col-md-5 col-lg-5">
+        <p class="contacts-section-title">CONTACTS</p>
+
+        <a class="contact-item" href="https://share.google/2DwpoZdsLafzqem0o" target="_blank">
+          <img src="../imagens/Location Icon.svg" alt="Location Icon">
+          <span>Rua da Aura 126 Porto 4050-265 PT</span>
+        </a>
+        <a class="contact-item" href="tel:+351222000111">
+          <img src="../imagens/Phone Icon.svg" alt="Phone Icon">
+          <span>+351 222 000 111</span>
+        </a>
+        <a class="contact-item" href="mailto:studio@aurra.pt">
+          <img src="../imagens/Email Icon.svg" alt="Email Icon">
+          <span>studio@aurra.pt</span>
+        </a>
+        <a class="contact-item" href="https://www.facebook.com/profile.php?id=100076261680815" target="_blank">
+          <img src="../imagens/Facebook Icon.svg" alt="Facebook Icon">
+          <span>aURRA Studio</span>
+        </a>
+        <a class="contact-item" href="https://www.instagram.com/aurra_studio/" target="_blank">
+          <img src="../imagens/Instagram Icon.svg" alt="Instagram Icon">
+          <span>@aurrastudio</span>
+        </a>
+        <a class="contact-item" href="https://www.linkedin.com/company/aurra-studios/" target="_blank">
+          <img src="../imagens/Linkedin Icon.svg" alt="LinkedIn Icon">
+          <span>linkedin/aurra studio</span>
+        </a>
+      </div>
+
+      <div class="col-12 col-md-7 col-lg-7">
+        <div class="form-wrap" id="contact-form">
+          <h2>CONTACT FORM</h2>
+          <form>
+            <div class="row g-3 mb-3">
+              <div class="col-12 col-sm-6">
+                <label for="name">NAME</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="col-12 col-sm-6">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="project">COMPANY / PROJECT</label>
+              <input type="text" id="project" name="project" placeholder="Where are you coming from?">
+            </div>
+            <div class="mb-3">
+              <label for="service">SERVICE REQUEST</label>
+              <select name="service" id="service">
+                <option value="" disabled selected>Select Service</option>
+                <option value="Sonic Identity">Sonic Identity</option>
+                <option value="Playlist Curation">Playlist Curation</option>
+                <option value="Mood Design">Mood Design</option>
+                <option value="Sound Consulting">Sound Consulting</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="budget">BUDGET RANGE</label>
+              <select name="budget" id="budget">
+                <option value="" disabled selected>Select Range</option>
+                <option value="Under 2k">Under €2.000</option>
+                <option value="2k-5k">€2.000 – €5.000</option>
+                <option value="5k-10k">€5.000 – €10.000</option>
+                <option value="Over10k">Over €10.000</option>
+                <option value="Undefined">Undefined</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="message">MESSAGE</label>
+              <textarea id="message" name="message" placeholder="Describe your project here"></textarea>
+            </div>
+            <button class="btn-submit" type="submit">SUBMIT FORM</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-desc mb-0">
+        aURRA, a boutique sound studio based in Porto, Portugal.
+        We craft sonic identities, curate bespoke playlists,
+        and design atmospheric sound for brands and spaces that care about how they feel.
+        Sound is not decoration. It is architecture.
+      </p>
+      <div class="footer-contact">
+        <a href="mailto:studio@aurra.pt">studio@aurra.pt</a>
+        <a href="tel:+351222000111">+351 222 000 111</a>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.livroreclamacoes.pt/inicio/" target="_blank">ONLINE COMPLAINT FORM</a>
+        <a href="https://bandcamp.com/terms_of_use" target="_blank">TERMS AND CONDITIONS</a>
+        <a href="https://bandcamp.com/privacy" target="_blank">PRIVACY AND COOKIES POLICY</a>
+      </div>
+    </div>
+    <p class="footer-copy mb-0">
+      Website designed by Vanessa Silva © 2026 aURRA_STUDIO — All rights reserved.
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('scroll', () => {
+      document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+</body>
+
+</html>

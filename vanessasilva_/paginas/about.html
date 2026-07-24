@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Meet aURRA: a Porto-based team of music directors and sound designers helping brands discover their sonic identity since 2026.">
+
+  <title>About – aURRA</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/x-icon" href="../imagens/logo.svg">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid px-3">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../imagens/logo.svg" alt="aURRA logo">
+          <span>aURRA</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="../index.html">HOME</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacts.html">CONTACTS</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main class="container-fluid px-3 px-md-4 px-lg-5">
+
+    <div class="page-title">
+      <h1>We are listeners first.</h1>
+    </div>
+
+    <div class="row g-4 g-lg-5 pb-5">
+      <!-- Text column -->
+      <div>
+        <div class="d-flex flex-column h-100 gap-4">
+          <p class="about-text">
+            aURRA was born out of a simple conviction: that sound shapes experience more
+            profoundly than almost anything else — and most brands treat it as an afterthought.
+            Founded in 2026 in Porto, we are a small team of music directors, sound designers,
+            and cultural researchers. We work at the intersection of music theory, brand strategy,
+            and spatial experience — helping organizations discover and articulate the voice they
+            didn't know they had. Our clients range from independent hotels and fine dining
+            restaurants to international retail brands and arts institutions. What they all share
+            is a belief that atmosphere is not decoration — it is architecture.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4 g-lg-5 pb-5">
+      <div class="col-12 col-lg-6">
+        <div class="about-card about-card--purple">
+          <div class="about-card-panel">
+            <div>
+              <h3>Philosophy</h3>
+              <p>
+                We believe sound is never neutral. Every space, every brand, every product
+                already carries a frequency — our job is to find it, shape it, and make it
+                unmistakably yours.
+              </p>
+            </div>
+            <a class="btn-aurra" href="services.html">DISCOVER MORE &rsaquo;</a>
+          </div>
+          <div class="about-card-image">
+            <img src="../imagens/about-philosophy.webp" alt="aURRA studio at work">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="about-card about-card--dark">
+          <div class="about-card-image">
+            <img src="../imagens/about-story.webp" alt="aURRA studio history">
+          </div>
+          <div class="about-card-panel">
+            <div>
+              <h3>Our Story</h3>
+              <p>
+                Founded in 2026 in Porto, aURRA began as a small collective of music
+                directors and sound designers determined to give brands a voice
+                beyond the visual.
+              </p>
+            </div>
+            <a class="btn-aurra" href="contacts.html">DISCOVER MORE &rsaquo;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-desc mb-0">
+        aURRA, a boutique sound studio based in Porto, Portugal.
+        We craft sonic identities, curate bespoke playlists,
+        and design atmospheric sound for brands and spaces that care about how they feel.
+        Sound is not decoration. It is architecture.
+      </p>
+      <div class="footer-contact">
+        <a href="mailto:studio@aurra.pt">studio@aurra.pt</a>
+        <a href="tel:+351222000111">+351 222 000 111</a>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.livroreclamacoes.pt/inicio/" target="_blank">ONLINE COMPLAINT FORM</a>
+        <a href="https://bandcamp.com/terms_of_use" target="_blank">TERMS AND CONDITIONS</a>
+        <a href="https://bandcamp.com/privacy" target="_blank">PRIVACY AND COOKIES POLICY</a>
+      </div>
+    </div>
+    <p class="footer-copy mb-0">
+      Website designed by Vanessa Silva © 2026 aURRA_STUDIO — All rights reserved.
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.addEventListener('scroll', () => {
+      document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 10);
+    });
+  </script>
+</body>
+
+</html>
